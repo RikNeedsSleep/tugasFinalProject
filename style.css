@@ -1,0 +1,481 @@
+
+    body {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    nav ul {
+      display: flex;
+    }
+
+    nav ul li {
+      list-style-type: none;
+      padding: 10px 25px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    nav ul li a:hover {
+      color: aqua;
+      transition: 0.5s;
+    }
+
+    #header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(51, 49, 49);
+      position: fixed;
+      width: 100%;
+      border-bottom: 1px solid #f70101;
+      z-index: 1000;
+
+    }
+
+    .content-wrapper {
+      min-height: 100vh;
+      padding: 10% 5%;
+      padding-top: 100px;
+
+    }
+
+    #content-1 .content-wrapper {
+      padding: 50% 5%;
+    }
+
+    #content-1 .image-container {
+      margin-right: 250px;
+      /* Ubah sesuai kebutuhan */
+    }
+
+    #content-1 .text-container {
+      margin-left: 250px;
+      /* Ubah sesuai kebutuhan */
+    }
+
+
+    #logo-text {
+      font-size: 2em;
+      font-weight: bold;
+      margin: 1em;
+    }
+
+    .content-with-image {
+      display: flex;
+      justify-content: center;
+      /* Mengatur posisi horizontal ke tengah */
+      align-items: center;
+      /* Mengatur posisi vertikal ke tengah */
+      text-align: center;
+      /* Mengatur teks agar berada di tengah */
+      height: 100vh;/
+    }
+
+    .image-container {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 20px;
+      max-width: 100%;
+      max-height: 100%;
+    }
+    #content-1 .image-container {
+        margin-left: 50px;
+      }
+
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .text-container {
+      flex: 1;
+      padding-left: 20px;
+    }
+
+    .more-link {
+      margin-right: 30px;
+    }
+
+    .text-container a {
+      font-size: 20px;
+      background: red;
+      color: white;
+      display: inline-block;
+      padding: 10px 30px;
+      border-radius: 30px;
+      border: 2px solid white;
+      transition: .5s;
+    }
+
+    .text-container a :hover {
+      background: transparent;
+      border: 2px solid red;
+      cursor: pointer;
+    }
+
+    h3 {
+      color: #000000;
+      letter-spacing: 0px;
+      font-size: 20px;
+    }
+
+    h4 {
+      color: rgb(0, 0, 0);
+      letter-spacing: 0px;
+      font-size: 20px;
+    }
+
+    h2 {
+      color: rgb(0, 0, 0);
+      font-size: 45px;
+      margin: 5px 0 5px;
+    }
+
+    h1 {
+      color: black;
+      font-size: 25px;
+      margin-bottom: 50px;
+    }
+
+    .content-with-image2 {
+      display: flex;
+      align-items: center;
+    }
+
+    .image-container2 {
+      width: 150px;
+      height: 150px;
+      margin-right: 100px;
+      background-color: #fff;
+    }
+
+    .image-container2 img {
+      width: 400%;
+      height: 500%;
+      object-fit: cover;
+    }
+
+    .text-container2 {
+      flex: 1;
+      width: 50px;
+      height: 50px;
+      margin-left: 400px;
+    }
+
+    .text-container2 h1 {
+      font-size: 50px;
+      text-transform: capitalize;
+      margin-bottom: 20px;
+      border-bottom: 2px solid red;
+    }
+
+    .experience-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+
+    .experience-text {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .experience-container i {
+      font-size: 36px;
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    .experience-container h1 {
+      font-size: 30px;
+      margin: 0;
+    }
+
+    #content-3 p {
+      text-align: justify;
+      font-size: 30px;
+    }
+
+    #content-4 li {
+      text-align: justify;
+      font-size: 30px;
+    }
+
+    .button {
+      background-color: red;
+      color: white;
+      border: 2px solid white;
+      font-weight: bold;
+      padding: 13px 10px;
+      border-radius: 30px;
+      transition: .1s;
+    }
+
+    .button:hover {
+      border: 2px solid white;
+      cursor: pointer;
+    }
+
+    .title h2 {
+      color: white;
+      font-size: 70px;
+      width: 100%;
+      margin-bottom: 30px auto;
+      text-align: center;
+    }
+
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 400px;
+      margin-top: 100px;
+    }
+
+    .card {
+      height: 365px;
+      width: 270px;
+      padding: 20px 35px;
+      background: #141414;
+      border-radius: 20px;
+      margin: 15px;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      border: 1px solid red;
+    }
+
+    .card i {
+      font-size: 50px;
+      display: block;
+      text-align: center;
+      margin: 25px 0;
+      color: red;
+    }
+
+    .card h5 {
+      color: white;
+      font-size: 23px;
+      margin-bottom: 15px;
+    }
+
+    .pra p {
+      color: #fcfc;
+      font-size: 16px;
+      line-height: 27px;
+      margin-bottom: 25px;
+      text-align: justify;
+    }
+
+    .pra p a {
+      background-color: red;
+      color: white;
+      border: 2px solid white;
+      font-weight: bold;
+      padding: 9px 22px;
+      border-radius: 30px;
+    }
+
+    .pra p a :hover {
+      background-color: transparent;
+      border: 2px solid red;
+      cursor: pointer;
+    }
+
+    .hobbies {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .hobby {
+      position: relative;
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .icon-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      position: absolute;
+      top: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .icon-wrapper i {
+      font-size: 80px;
+    }
+
+    #content-6 h1 {
+      font-size: 40px;
+      /* Ukuran font h1 lebih besar */
+      margin: 0 0 20px;
+    }
+
+    .hobby img {
+      max-width: 100%;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      margin-top: 40px;
+    }
+
+    .hobby h2 {
+      margin-top: 10px;
+      font-size: 24px;
+    }
+
+    .hobby p {
+      margin-top: 10px;
+      font-size: 16px;
+    }
+
+
+    #contact-form {
+      text-align: left;
+      margin-top: 20px;
+    }
+
+    label {
+      display: block;
+      font-size: 16px;
+      margin-bottom: 5px;
+      color: #666;
+    }
+
+    input[type="email"],
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 16px;
+    }
+
+    #btn-kirim {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    #btn-kirim:hover {
+      background-color: #555;
+    }
+
+    .contact-info {
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    .contact-info i {
+      margin-right: 10px;
+      font-size: 18px;
+    }
+
+    .contact-info p {
+      display: inline-block;
+      margin: 5px;
+    }
+
+    .contact-info a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+
+    #content-6 {
+      text-align: center;
+      padding: 100px 0;
+    }
+
+    #content-6 h1,
+    #content-6 p {
+      margin: 0;
+    }
+
+    #content-7 ol {
+      text-align: justify;
+      font-size: 30px;
+    }
+
+    #content-1 {
+      background-color: rgb(0, 0, 0);
+    }
+
+
+    #content-2 {
+      background-color: rgb(252, 254, 255);
+    }
+
+    #content-3 {
+      background-color: rgb(0, 0, 0);
+    }
+
+    #content-4 {
+      background-color: rgb(255, 255, 255);
+    }
+
+    #content-5 {
+      background-color: rgb(0, 0, 0);
+    }
+
+    #content-6 {
+      background-color: rgb(255, 255, 255);
+    }
+
+    #content-7 {
+      background-color: black;
+    }
+
+    #contact-8 {
+      background-color: rgb(253, 255, 254);
+    }
+
+    #footer {
+      margin-top: auto;
+      padding: 0.5em;
+      text-align: center;
+      background-color: #f9a200;
+      color: #fff;
+    }
+
+    #tulisanBerjalan {
+      color: #ff0606;
+    }
